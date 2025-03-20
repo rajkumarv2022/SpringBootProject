@@ -1,0 +1,5 @@
+com\college\sri\eshwar\entity\User.class
+com\college\sri\eshwar\DemoApplication.class
+com\college\sri\eshwar\repository\UserRepository.class
+com\college\sri\eshwar\service\UserServiceImpl.class
+com\college\sri\eshwar\Controller\UserController.class
