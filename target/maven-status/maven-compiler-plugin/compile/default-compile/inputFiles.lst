@@ -2,4 +2,6 @@ C:\Users\rajku\Downloads\demo\demo\src\main\java\com\college\sri\eshwar\Controll
 C:\Users\rajku\Downloads\demo\demo\src\main\java\com\college\sri\eshwar\DemoApplication.java
 C:\Users\rajku\Downloads\demo\demo\src\main\java\com\college\sri\eshwar\entity\User.java
 C:\Users\rajku\Downloads\demo\demo\src\main\java\com\college\sri\eshwar\repository\UserRepository.java
+C:\Users\rajku\Downloads\demo\demo\src\main\java\com\college\sri\eshwar\security\JwtUtil.java
+C:\Users\rajku\Downloads\demo\demo\src\main\java\com\college\sri\eshwar\security\SecurityConfig.java
 C:\Users\rajku\Downloads\demo\demo\src\main\java\com\college\sri\eshwar\service\UserServiceImpl.java
