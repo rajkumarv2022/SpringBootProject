@@ -17,4 +17,5 @@ public class AuthController {
     public String generateToken(@PathVariable String username) {
         return jwtUtil.generateToken(username);
     }
+
 }
