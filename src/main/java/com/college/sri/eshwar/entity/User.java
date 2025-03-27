@@ -11,7 +11,7 @@ public class User {
 
 
     @Id
-    int id;
+    String id;
     String name;
     String email;
 
@@ -19,7 +19,7 @@ public class User {
 
     public User(){}
 
-    public User(int id,String name,String email,String password)
+    public User(String id,String name,String email,String password)
     {
         this.id=id;
         this.name=name;
@@ -27,7 +27,7 @@ public class User {
         this.password=password;
     }
 
-    public int getId()
+    public String getId()
     {
         return id;
     }

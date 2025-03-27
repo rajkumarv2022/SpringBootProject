@@ -22,7 +22,7 @@ public class UserController {
     }
 
     @GetMapping("/user/get/{id}")
-    public Optional<User> getUserByid(@PathVariable("id") int id)
+    public Optional<User> getUserByid(@PathVariable("id") String id)
     {
         return service.getUserByid(id);
     }
@@ -40,7 +40,7 @@ public class UserController {
     }
 
     @DeleteMapping("user/delete/{id}")
-    public String deleteUser(@PathVariable("id") int id)
+    public String deleteUser(@PathVariable("id") String id)
     {
         return service.deleteUser(id);
     }

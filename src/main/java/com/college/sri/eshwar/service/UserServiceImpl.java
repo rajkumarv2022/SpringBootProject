@@ -38,12 +38,12 @@ public class UserServiceImpl {
             return userRepository.findAll();
     }
 
-    public Optional<User> getUserByid(int id)
+    public Optional<User> getUserByid(String id)
     {
         return userRepository.findById(id);
     }
 
-    public String deleteUser(int id)
+    public String deleteUser(String id)
     {
         userRepository.deleteById(id);
         return "User succesfully deleted";
