@@ -1,5 +1,3 @@
-package com.college.sri.eshwar.config;
-
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
@@ -12,9 +10,9 @@ public class CorsConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**") // Allow all endpoints
-                        .allowedOrigins("http://localhost:5177") // ✅ React frontend URL
-                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // ✅ Allowed HTTP methods
+                registry.addMapping("/**")
+                        .allowedOriginPatterns("*") // ✅ Allow all origins
+                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*") // ✅ Allow all headers
                         .allowCredentials(true);
             }
